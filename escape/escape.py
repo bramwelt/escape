@@ -1,13 +1,15 @@
 """
+Escape
 """
+import readline
 
-class Game(object):
-    """
-    """
+readline.parse_and_bind('tab: complete')
 
-    def start(self):
-        print("Welcome!")
+print("Welcome to Escape! Your goal is "
+      "to escape your prison cell. Good luck!")
 
-if __name__ == "__main__":
-    g = Game()
-    g.start()
+while True:
+    line = raw_input("Prompt ('quit' to quit): ")
+    if line == "quit":
+        break
+    print("ENTERED: '{0}'".format(line))
