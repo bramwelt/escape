@@ -1,5 +1,8 @@
 """
 Escape
+
+Initial code take from:
+    http://pymotw.com/2/readline/index.html#module-readline
 """
 import readline
 

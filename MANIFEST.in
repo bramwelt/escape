@@ -1,3 +1,4 @@
 include README.rst
+include LICENSE
 recursive-include escape *.py
 recursive-include docs *.rst *.py
